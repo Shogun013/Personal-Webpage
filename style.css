@@ -181,7 +181,7 @@ section {
 
 .section__text {
   align-self: center;
-  text-align: left;
+  text-align: center;
 }
 
 .section__text p {
@@ -319,7 +319,7 @@ border-radius: 1rem;
   flex: 1;
   background: #B4D4FF;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.2rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
