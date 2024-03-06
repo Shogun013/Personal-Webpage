@@ -10,7 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #EEF5FF;
+  background-color: #FBFACD;
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(14, 13, 13);
 }
 
 /* TRANSITION */
@@ -317,10 +317,10 @@ border-radius: 1rem;
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #B4D4FF;
+  background: #F3F0D7;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.2rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(0, 0, 0) 0.2rem solid;
+  border-color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -382,8 +382,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: #B4D4FF;
+  border-color: rgb(12, 12, 12);
+  background: #F3F0D7;
 }
 
 .project-img {
@@ -400,7 +400,35 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+
 }
+
+/* MONTAGE SECTION */
+
+#montage {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  flex-direction: column;
+  text-align: center;
+  height: 90vh; /* Adjust the height as needed */
+}
+
+.montage-video-container {
+  position: relative;
+  width: 150%; /* Adjust width as needed */
+  max-width: 1000px; /* Adjust maximum width as needed */
+}
+
+.montage-video {
+  width: 100%;
+  height: auto; /* Adjust the height automatically */
+  border: 2px solid #333; /* Add a border with 2px thickness and color #333 */
+  border-radius: 20px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
 
 /* CONTACT */
 
